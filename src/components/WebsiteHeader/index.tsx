@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button, Icon, Image, SimpleGrid } from "@chakra-ui/react";
 import { FiChevronLeft } from 'react-icons/fi';
 
@@ -11,16 +12,18 @@ export function WebsiteHeader({ containReturnButton = false }: WebsiteHeaderProp
       as="header"
       templateColumns="repeat(3, 1fr)"
       alignItems="center"
-      height="100"
+      h="6.25rem"
     >
       {containReturnButton && (
-        <Button
-          leftIcon={<Icon as={FiChevronLeft} />}
-          mr="auto"
-          background="transparent"
-          justifySelf="start"
-          gridColumn={1}
-        ></Button>
+        <Link href="/">
+          <Button
+            leftIcon={<Icon as={FiChevronLeft} />}
+            mr="auto"
+            background="transparent"
+            justifySelf="start"
+            gridColumn={1}
+          ></Button>
+        </Link>
       )}
       <Image
         src="logo.svg"
@@ -31,4 +34,4 @@ export function WebsiteHeader({ containReturnButton = false }: WebsiteHeaderProp
       />
     </SimpleGrid>
   )
-} // 72.5rem de largura
+}

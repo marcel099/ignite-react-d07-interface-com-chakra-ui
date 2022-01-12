@@ -3,8 +3,9 @@ import {
   Divider, Image, SimpleGrid
 } from "@chakra-ui/react";
 
-import { PageContainer } from "../components/PageContainer";
 import { WebsiteHeader } from "../components/WebsiteHeader";
+import { PageContainer } from "../components/PageContainer";
+
 import { HomeHeader } from "../components/home/HomeHeader";
 import { InvitingText } from "../components/home/InvitingText";
 import { TravelTypesList } from "../components/home/TravelTypesList";
