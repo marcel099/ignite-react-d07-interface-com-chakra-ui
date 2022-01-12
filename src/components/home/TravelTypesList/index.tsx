@@ -28,35 +28,35 @@ export function TravelTypesList() {
       >
         <TravelTypesItem
           label="vida noturna"
-          imageSrc="cocktail.svg"
+          imageSrc="icons/cocktail.svg"
           imageAlt="Taça de coquetel"
         />
       </ListItem>
       <ListItem>
         <TravelTypesItem
           label="praia"
-          imageSrc="surf.svg"
+          imageSrc="icons/surf.svg"
           imageAlt="Prancha de surf na areia da praia"
         />
       </ListItem>
       <ListItem>
         <TravelTypesItem
           label="moderno"
-          imageSrc="building.svg"
+          imageSrc="icons/building.svg"
           imageAlt="Edifício"
         />
       </ListItem>
       <ListItem>
         <TravelTypesItem
           label="clássico"
-          imageSrc="museum.svg"
+          imageSrc="icons/museum.svg"
           imageAlt="Museu"
         />
       </ListItem>
       <ListItem>
         <TravelTypesItem
           label="e mais..."
-          imageSrc="earth.svg"
+          imageSrc="icons/earth.svg"
           imageAlt="Planeta Terra"
         />
       </ListItem>
