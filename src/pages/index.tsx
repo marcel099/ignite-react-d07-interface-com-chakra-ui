@@ -1,6 +1,9 @@
-import { Divider, Heading, Text } from "@chakra-ui/react";
+import {
+  Divider, Text
+} from "@chakra-ui/react";
 
 import { Header } from "../components/header";
+import { HomeHeader } from "../components/homeHeader";
 import { TravelTypesList } from "../components/TravelTypesList";
 
 export default function Home() {
@@ -8,16 +11,8 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <header>
-          <Heading as='h1'>
-            <Text as="span" display="block">
-              5 Continentes,
-            </Text>
-            <Text as="span">
-              infinitas possibilidades
-            </Text>
-          </Heading>
-        </header>
+        <HomeHeader />
+
         <section>
           <TravelTypesList />
           
