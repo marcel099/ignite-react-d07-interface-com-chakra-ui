@@ -1,7 +1,7 @@
 import { Button, Icon, Image, SimpleGrid } from "@chakra-ui/react";
 import { FiChevronLeft } from 'react-icons/fi';
 
-export function Header() {
+export function WebsiteHeader() {
   return (
     <SimpleGrid
       as="header"
