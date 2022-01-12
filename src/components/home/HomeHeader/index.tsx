@@ -6,8 +6,8 @@ export function HomeHeader() {
   return (
     <SimpleGrid
       as="header"
-      background="black"
       h="21rem"
+      mx="-2.5"
       
       columns={[1, null, 2]}
       alignItems="center"
