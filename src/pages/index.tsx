@@ -1,11 +1,11 @@
 import {
-  Divider, SimpleGrid, Text
+  Divider, SimpleGrid
 } from "@chakra-ui/react";
 
 import { WebsiteHeader } from "../components/WebsiteHeader";
-import { HomeHeader } from "../components/HomeHeader";
-import { InvitingText } from "../components/InvitingText";
-import { TravelTypesList } from "../components/TravelTypesList";
+import { HomeHeader } from "../components/home/HomeHeader";
+import { InvitingText } from "../components/home/InvitingText";
+import { TravelTypesList } from "../components/home/TravelTypesList";
 
 export default function Home() {
   return (

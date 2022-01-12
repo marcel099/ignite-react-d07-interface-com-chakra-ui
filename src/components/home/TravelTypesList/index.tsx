@@ -1,6 +1,6 @@
-import { Box, Flex, ListItem, SimpleGrid, UnorderedList } from "@chakra-ui/react";
+import { ListItem, UnorderedList } from "@chakra-ui/react";
 
-import { TravelTypesItem } from "../TravelTypesItem";
+import { TravelTypesItem } from "./TravelTypesItem";
 
 export function TravelTypesList() {
   return (
