@@ -2,7 +2,7 @@ import { Button, Icon, Image, SimpleGrid } from "@chakra-ui/react";
 import { FiChevronLeft } from 'react-icons/fi';
 
 type WebsiteHeaderProps = {
-  containReturnButton: boolean
+  containReturnButton?: boolean
 }
 
 export function WebsiteHeader({ containReturnButton = false }: WebsiteHeaderProps) {
