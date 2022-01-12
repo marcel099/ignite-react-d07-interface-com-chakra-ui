@@ -10,7 +10,7 @@ export function TravelTypesItem({ label, imageSrc, imageAlt }: TravelTypesItemPr
   return (
     <VStack alignItems="center">
       <Image src={imageSrc} alt={imageAlt} display={["none", "initial"]}/>
-      <Text fontWeight={600} fontSize="1.5rem">
+      <Text fontWeight={600} fontSize="1.5rem" color="gray.600">
         {label}
       </Text>
     </VStack>

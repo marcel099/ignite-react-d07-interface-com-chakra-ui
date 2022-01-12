@@ -14,6 +14,7 @@ export function TravelTypesList() {
 
       px="10"
       ml="0"
+      mt="7.125rem"
     >
       <ListItem 
         // _before={{

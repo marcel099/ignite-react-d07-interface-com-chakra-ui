@@ -1,30 +1,33 @@
 import {
-  Divider, Text
+  Divider, SimpleGrid, Text
 } from "@chakra-ui/react";
 
-import { Header } from "../components/header";
-import { HomeHeader } from "../components/homeHeader";
+import { WebsiteHeader } from "../components/WebsiteHeader";
+import { HomeHeader } from "../components/HomeHeader";
+import { InvitingText } from "../components/InvitingText";
 import { TravelTypesList } from "../components/TravelTypesList";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <WebsiteHeader />
       <main>
         <HomeHeader />
 
         <section>
           <TravelTypesList />
           
-          <Divider />
-          <Text>
-            <Text as="span" display="block">
-              Vamos nessa?
-            </Text>
-            <Text as="span">
-              Então escolha seu continente
-            </Text>
-          </Text>
+          <SimpleGrid placeItems="center">
+            <Divider
+              size="7"
+              w="5.625rem"
+              borderColor="gray.600"
+              borderBottomWidth={2}
+              opacity="initial"
+              mt="5rem"
+            />
+          </SimpleGrid>
+          <InvitingText />
           <div></div>   { /* sleeper */ }
         </section>
       </main>
