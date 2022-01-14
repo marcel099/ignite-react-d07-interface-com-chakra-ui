@@ -7,8 +7,11 @@
 .pageContainer > * {
   width: 72.5rem;
   padding-inline: 0.625rem;
+}
 
-  @media (max-width: 720px) {
+@media (max-width: 72.5rem) {
+  .pageContainer > * {
+    width: 100%;
     max-width: 72.5rem;
   }
 }
