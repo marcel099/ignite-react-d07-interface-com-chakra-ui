@@ -1,15 +1,16 @@
+import { Box, BoxProps } from '@chakra-ui/react'
 import { ReactElement } from 'react'
 
 import styles from './styles.module.css'
 
-type PageContainerProps = {
+interface PageContainerProps extends BoxProps {
   children: ReactElement
 }
 
-export function PageContainer({ children }: PageContainerProps) {
+export function PageContainer({ children, mb }: PageContainerProps) {
   return (
-      <div className={styles.pageContainer}>
-        {children}
-      </div>
+    <Box className={styles.pageContainer} mb={mb}>
+      {children}
+    </Box>
   )
 }
