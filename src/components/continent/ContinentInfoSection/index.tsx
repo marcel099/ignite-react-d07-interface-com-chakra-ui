@@ -7,7 +7,7 @@ export function ContinentInfoSection() {
   return (
     <SimpleGrid
       as="section"
-      mt="8.75rem"
+      mt={["1.5rem", null, "5rem"]}
       spacingX="4.375rem"
       spacingY="1rem"
       columns={[1, null, null, 2]}

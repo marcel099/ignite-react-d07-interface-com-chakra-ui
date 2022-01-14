@@ -3,7 +3,7 @@ import Head from "next/head";
 import { WebsiteHeader } from "../components/WebsiteHeader";
 import { PageContainer } from "../components/PageContainer";
 
-import { FullWidthBanner } from "../components/FullWidthBanner";
+import { PageBanner } from "../components/PageBanner";
 import { ContinentTitle } from "../components/continent/ContinentTitle";
 import { ContinentInfoSection } from "../components/continent/ContinentInfoSection";
 import { CitiesSection } from "../components/continent/CitiesSection";
@@ -16,14 +16,15 @@ export default function Continent() {
       <Head>
         <title>Continente | worldtrip</title>
       </Head>
-      <PageContainer>
+      <PageContainer
+        mb={["1rem", null, "2.25rem"]}
+      >
         <>
           <WebsiteHeader containReturnButton={true} />
-          <FullWidthBanner
-            top="6.25rem"
-            h="31.25rem"
+          <PageBanner
+            h={["9.375rem", null, "31.25rem"]}
             backgroundImageUrl={backgroundImageUrl}
-            backgroundPosition="center bottom"
+            backgroundPosition={["center", null, "center bottom"]}
           />
           <ContinentTitle />
           <ContinentInfoSection />

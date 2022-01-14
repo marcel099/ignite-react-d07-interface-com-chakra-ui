@@ -19,7 +19,9 @@ export default function Home() {
       <Head>
         <title>Home | worldtrip</title>
       </Head>
-      <PageContainer>
+      <PageContainer
+        mb={["1.5rem", null, "2.5rem"]}
+      >
         <>
           <WebsiteHeader />
           <PageBanner

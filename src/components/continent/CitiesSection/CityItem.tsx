@@ -4,7 +4,6 @@ export function CityItem() {
   return (
     <Box
       h="17.5rem"
-      // w="16rem" // todo fazer isso com autofit
       borderStyle="solid"
       borderWidth="1px"
       borderColor="yellow.400"

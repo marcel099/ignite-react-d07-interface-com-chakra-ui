@@ -20,7 +20,7 @@ export function PageBanner({
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
       backgroundPosition={backgroundPosition}
-      backgroundAttachment="fixed"
+      backgroundAttachment={["initial", "fixed"]}
     />
   )
 }
