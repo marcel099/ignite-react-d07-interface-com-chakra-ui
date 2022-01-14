@@ -14,52 +14,33 @@ export function TravelTypesList() {
 
       px="10"
       ml="0"
-      mt="7.125rem"
+      mt={["2.25rem", null, "7.125rem"]}
     >
-      <ListItem 
-        // _before={{
-        //   content: `"\2022"`,    // bug
-        //   color: "yellow.500",
-        //   fontWeight: "bold",
-        //   display: "inline-block",
-        //   width: "1em",
-        //   ml: "-1em",
-        // }}
-      >
-        <TravelTypesItem
-          label="vida noturna"
-          imageSrc="icons/cocktail.svg"
-          imageAlt="Taça de coquetel"
-        />
-      </ListItem>
-      <ListItem>
-        <TravelTypesItem
-          label="praia"
-          imageSrc="icons/surf.svg"
-          imageAlt="Prancha de surf na areia da praia"
-        />
-      </ListItem>
-      <ListItem>
-        <TravelTypesItem
-          label="moderno"
-          imageSrc="icons/building.svg"
-          imageAlt="Edifício"
-        />
-      </ListItem>
-      <ListItem>
-        <TravelTypesItem
-          label="clássico"
-          imageSrc="icons/museum.svg"
-          imageAlt="Museu"
-        />
-      </ListItem>
-      <ListItem>
-        <TravelTypesItem
-          label="e mais..."
-          imageSrc="icons/earth.svg"
-          imageAlt="Planeta Terra"
-        />
-      </ListItem>
+      <TravelTypesItem
+        label="vida noturna"
+        imageSrc="icons/cocktail.svg"
+        imageAlt="Taça de coquetel"
+      />
+      <TravelTypesItem
+        label="praia"
+        imageSrc="icons/surf.svg"
+        imageAlt="Prancha de surf na areia da praia"
+      />
+      <TravelTypesItem
+        label="moderno"
+        imageSrc="icons/building.svg"
+        imageAlt="Edifício"
+      />
+      <TravelTypesItem
+        label="clássico"
+        imageSrc="icons/museum.svg"
+        imageAlt="Museu"
+      />
+      <TravelTypesItem
+        label="e mais..."
+        imageSrc="icons/earth.svg"
+        imageAlt="Planeta Terra"
+      />
     </UnorderedList>
   )
 }

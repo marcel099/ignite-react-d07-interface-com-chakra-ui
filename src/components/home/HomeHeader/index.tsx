@@ -6,8 +6,9 @@ export function HomeHeader() {
   return (
     <SimpleGrid
       as="header"
-      h="21rem"
+      h={["10.125rem", null, "21rem"]}
       mx="-2.5"
+      p="1rem"
       
       columns={[1, null, 2]}
       alignItems="center"
@@ -15,7 +16,7 @@ export function HomeHeader() {
       <Box as="section">
         <Heading
           as='h1'
-          fontSize="2.25rem"
+          fontSize={["1.25rem", null, "2.25rem"]}
           fontWeight={500}
           color="gray.50"
         >
@@ -27,7 +28,7 @@ export function HomeHeader() {
           </Text>
         </Heading>
         <Text
-          fontSize="1.25rem"
+          fontSize={["0.875rem", null, "1.25rem"]}
           fontWeight={400}
           color="gray.300"
           maxWidth="32.75rem"

@@ -6,7 +6,7 @@ import {
 import { WebsiteHeader } from "../components/WebsiteHeader";
 import { PageContainer } from "../components/PageContainer";
 
-import { FullWidthBanner } from "../components/FullWidthBanner";
+import { PageBanner } from "../components/PageBanner";
 import { HomeHeader } from "../components/home/HomeHeader";
 import { InvitingText } from "../components/home/InvitingText";
 import { TravelTypesList } from "../components/home/TravelTypesList";
@@ -22,18 +22,11 @@ export default function Home() {
       <PageContainer>
         <>
           <WebsiteHeader />
-          <FullWidthBanner
-            top="6.25rem"
-            h="21rem"
+          <PageBanner
+            h={["10.125rem", null, "21rem"]}
             backgroundImageUrl={backgroundImageUrl}
             backgroundPosition="center top"
           />
-          {/* <FullWidthBanner
-            top="6.25rem"
-            h="31.25rem"
-            backgroundImageUrl={backgroundImageUrl}
-            backgroundPosition="center bottom"
-          /> */}
           <main>
             <HomeHeader />
 
@@ -47,7 +40,7 @@ export default function Home() {
                   borderColor="gray.600"
                   borderBottomWidth={2}
                   opacity="initial"
-                  mt="5rem"
+                  mt={["2.25rem", null, "5rem"]}
                 />
               </SimpleGrid>
               <InvitingText />
