@@ -12,7 +12,7 @@ export function WebsiteHeader({ containReturnButton = false }: WebsiteHeaderProp
       as="header"
       templateColumns="repeat(3, 1fr)"
       alignItems="center"
-      h="6.25rem"
+      h={["3.125rem", null, "6.25rem"]}
     >
       {containReturnButton && (
         <Link href="/">
