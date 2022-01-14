@@ -8,7 +8,7 @@ export function HomeHeader() {
       as="header"
       h={["10.125rem", null, "21rem"]}
       mx="-2.5"
-      p="1rem"
+      px={["1rem", null, null, null, "0"]}
       
       columns={[1, null, 2]}
       alignItems="center"

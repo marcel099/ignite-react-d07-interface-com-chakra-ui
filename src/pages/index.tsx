@@ -1,6 +1,6 @@
 import Head from "next/head";
 import {
-  Divider, Image, SimpleGrid
+  Divider, SimpleGrid
 } from "@chakra-ui/react";
 
 import { WebsiteHeader } from "../components/WebsiteHeader";
@@ -10,6 +10,7 @@ import { PageBanner } from "../components/PageBanner";
 import { HomeHeader } from "../components/home/HomeHeader";
 import { InvitingText } from "../components/home/InvitingText";
 import { TravelTypesList } from "../components/home/TravelTypesList";
+import { SwipperSlider } from "../components/home/SwipperSlider";
 
 export default function Home() {
   const backgroundImageUrl = "https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -46,11 +47,12 @@ export default function Home() {
                 />
               </SimpleGrid>
               <InvitingText />
-              <div></div>   { /* sleeper */ }
+              <SwipperSlider />
             </section>
           </main>
         </>
       </PageContainer>
+
     </>
   )
 }
