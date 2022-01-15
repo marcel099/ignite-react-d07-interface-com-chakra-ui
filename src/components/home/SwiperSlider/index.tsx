@@ -8,18 +8,15 @@ import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 
-import styles from './styles.module.css'
-
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
-export function SwipperSlider() {
+export function SwiperSlider() {
   return (
     <Box
       as="article"
       mt={["1.25rem", null, "3.25rem"]}
     >
       <Swiper
-        className={styles.swiper}
         spaceBetween={30}
         centeredSlides={true}
         loop={true}
@@ -32,19 +29,19 @@ export function SwipperSlider() {
           "clickable": true
         }}
       >
-        <SwiperSlide className={styles.swiperSlide}>
+        <SwiperSlide>
           África
         </SwiperSlide>
-        <SwiperSlide className={styles.swiperSlide}>
+        <SwiperSlide>
           América
         </SwiperSlide>
-        <SwiperSlide className={styles.swiperSlide}>
+        <SwiperSlide>
           Ásia
         </SwiperSlide>
-        <SwiperSlide className={styles.swiperSlide}>
+        <SwiperSlide>
           Europa
         </SwiperSlide>
-        <SwiperSlide className={styles.swiperSlide}>
+        <SwiperSlide>
           Oceania
         </SwiperSlide>
       </Swiper>
