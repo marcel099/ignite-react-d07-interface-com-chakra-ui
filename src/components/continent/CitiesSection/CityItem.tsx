@@ -39,7 +39,7 @@ export function CityItem() {
             </Text>
           </Box>
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/255px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
+            src="https://catamphetamine.gitlab.io/country-flag-icons/1x1/GB.svg"
             h="1.875rem"
             w="1.875rem"
             rounded="full"
