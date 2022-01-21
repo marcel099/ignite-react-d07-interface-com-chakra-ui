@@ -1,7 +1,10 @@
+// import { GetServerSideProps, GetStaticProps } from 'next'
 import Head from "next/head";
 import {
   Divider, SimpleGrid
 } from "@chakra-ui/react";
+
+// import { api } from "../services/axios";
 
 import { WebsiteHeader } from "../components/WebsiteHeader";
 import { PageContainer } from "../components/PageContainer";
@@ -12,7 +15,16 @@ import { InvitingText } from "../components/home/InvitingText";
 import { TravelTypesList } from "../components/home/TravelTypesList";
 import { SwiperSlider } from "../components/home/SwiperSlider";
 
-export default function Home() {
+// type Continent = {
+//   id: string
+//   name: string
+// }
+
+// type HomeProps = {
+//   continents: Continent[]
+// }
+
+export default function Home(/*{ continents }: HomeProps*/) {
   const backgroundImageUrl = "https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
 
   return (
@@ -47,7 +59,7 @@ export default function Home() {
                 />
               </SimpleGrid>
               <InvitingText />
-              <SwiperSlider />
+              <SwiperSlider /* continents={continents} */ />
             </section>
           </main>
         </>
@@ -56,3 +68,24 @@ export default function Home() {
     </>
   )
 }
+
+// type ResponseData = {
+//   continents: Continent[]
+// }
+
+//? Em ambiente de desenvolvimento isso não funciona
+//?pois o MirageJS não dá suporte a Back-End Node com NextJS
+
+// export const getStaticProps: GetStaticProps = async () => {
+//   const response = await api.get('continents')
+
+//   console.log(response)
+//   const { continents } = response.data
+
+//   return {
+//     props: {
+//       continents
+//     },
+//     revalidate: 60 * 60 * 24 * 7,   // 7 days
+//   }
+// }

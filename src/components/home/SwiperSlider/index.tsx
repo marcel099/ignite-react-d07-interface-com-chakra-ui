@@ -7,10 +7,35 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
+import { useEffect, useState } from 'react';
+
+import { api } from '../../../services/axios'
 
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
-export function SwiperSlider() {
+type Continent = {
+  id: string
+  name: string
+}
+
+// type SwiperSliderProps = {
+//   continents: Continent[]
+// }
+
+export function SwiperSlider(/*{  continents }: SwiperSliderProps*/) {
+  const [continents, setContinents] = useState<Continent[]>([])
+
+  useEffect(() => {
+    async function getContinents() {
+      const response = await api.get('continents')
+
+      console.log(response)
+      setContinents(response.data.continents)
+    }
+
+    getContinents()
+  }, [])
+
   return (
     <Box
       as="article"
@@ -29,21 +54,9 @@ export function SwiperSlider() {
           "clickable": true
         }}
       >
-        <SwiperSlide>
-          África
-        </SwiperSlide>
-        <SwiperSlide>
-          América
-        </SwiperSlide>
-        <SwiperSlide>
-          Ásia
-        </SwiperSlide>
-        <SwiperSlide>
-          Europa
-        </SwiperSlide>
-        <SwiperSlide>
-          Oceania
-        </SwiperSlide>
+        { continents.map(({ id, name }) => (
+          <SwiperSlide key={id}>{name}</SwiperSlide>
+        ))}
       </Swiper>
     </Box>
   )
