@@ -27,9 +27,8 @@ export function SwiperSlider(/*{  continents }: SwiperSliderProps*/) {
 
   useEffect(() => {
     async function getContinents() {
-      const response = await api.get('continents')
+      const response = await api.get('/continents')
 
-      console.log(response)
       setContinents(response.data.continents)
     }
 

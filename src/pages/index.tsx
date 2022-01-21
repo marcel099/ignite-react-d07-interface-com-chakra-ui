@@ -79,7 +79,6 @@ export default function Home(/*{ continents }: HomeProps*/) {
 // export const getStaticProps: GetStaticProps = async () => {
 //   const response = await api.get('continents')
 
-//   console.log(response)
 //   const { continents } = response.data
 
 //   return {
