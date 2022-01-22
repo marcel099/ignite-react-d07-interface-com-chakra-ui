@@ -58,32 +58,46 @@ export function SwiperSlider(/*{  continents }: SwiperSliderProps*/) {
       >
         { continents.map(({ id, name, carouselImageUrl }) => (
           <SwiperSlide key={id}>
-            <Link href={`/continent/${id}`}>
-              <Box
-                as="a"
-                href={`/continent/${id}`}
-                w="100%"
-                h="100%"
-
-                display="grid"
-                placeItems="center"
-
-                background={`url(${carouselImageUrl})`}
-                backgroundRepeat="no-repeat"
-                backgroundSize="cover"
-                backgroundPosition="center"
-              >
+            <Box
+              position="relative"
+              w="100%"
+              h="100%"
+            >
+              <Link href={`/continent/${id}`}>
                 <Box
-                  as="strong"
-                  zIndex={0}
-                  fontWeight={700}
-                  fontSize="3rem"
-                  color="gray.50"
+                  as="a"
+                  href={`/continent/${id}`}
+                  w="90%"
+                  h="100%"
                 >
-                  {name}
+                  <Box
+                    display="grid"
+                    placeItems="center"
+
+                    h="100%"
+  
+                    position="absolute"
+                    left={0}
+                    right={0}
+
+                    background={`url(${carouselImageUrl})`}
+                    backgroundRepeat="no-repeat"
+                    backgroundSize="cover"
+                    backgroundPosition="center"
+                  >
+                    <Box
+                      as="strong"
+                      zIndex={0}
+                      fontWeight={700}
+                      fontSize="3rem"
+                      color="gray.50"
+                    >
+                      {name}
+                    </Box>
+                  </Box>
                 </Box>
-              </Box>
-            </Link>
+              </Link>
+            </Box>
           </SwiperSlide>
         ))}
       </Swiper>
