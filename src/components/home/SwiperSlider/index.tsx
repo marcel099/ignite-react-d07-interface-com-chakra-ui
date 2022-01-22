@@ -48,10 +48,10 @@ export function SwiperSlider(/*{  continents }: SwiperSliderProps*/) {
         centeredSlides={true}
         loop={true}
         navigation={true}
-        // autoplay={{
-        //   delay: 7000,
-        //   disableOnInteraction: false
-        // }}
+        autoplay={{
+          delay: 7000,
+          disableOnInteraction: false
+        }}
         pagination={{
           "clickable": true
         }}
