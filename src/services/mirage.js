@@ -34,19 +34,23 @@ export function makeServer() {
           'name', 'banner_image_url',
           'info', 'total_countries', 'total_languages'
         ],
-        include: function(request) {
-          if (request.queryParams.include === 'countries') {
-            return ['countries']
-          } else {
-            return []
-          }
-        },
+        //! MirageJS often doesn't recognize that there is a query param
+        //!called 'countries', even if it was sent at the request
+        // include: function(request) {
+        //   if (request.queryParams?.include === 'countries') {
+        //     return ['countries']
+        //   } else {
+        //     return []
+        //   }
+        // },
+        include: ['countries'],
         embed: true
       }),
       country: RestSerializer.extend({
         include: ['cities'],
         embed: true
       }),
+      city: RestSerializer.extend({}),
     },
 
     seeds(server) {
