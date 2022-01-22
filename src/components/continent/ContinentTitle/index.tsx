@@ -1,6 +1,12 @@
 import { Flex, Heading } from "@chakra-ui/react";
 
+import { useContinent } from "../../../contexts/ContinentContext";
+
 export function ContinentTitle() {
+  const {
+    name
+  } = useContinent()
+
   return (
     <Flex
       h={["9.375rem", null, "31.25rem"]}
@@ -16,7 +22,7 @@ export function ContinentTitle() {
         mt={[null, null, "auto"]}
         mb={[null, null, "3.75rem"]}
       >
-        Europa
+        {name}
       </Heading>
     </Flex>
   )

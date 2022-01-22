@@ -1,6 +1,18 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
-export function CityItem() {
+interface CityItemProps {
+  countryName: string
+  countryFlagImageUrl: string
+  cityName: string
+  cityImageUrl: string
+}
+
+export function CityItem({
+  countryName,
+  countryFlagImageUrl,
+  cityName,
+  cityImageUrl,
+}: CityItemProps) {
   return (
     <Box
       h="17.5rem"
@@ -10,7 +22,7 @@ export function CityItem() {
     >
       <Box as="header">
         <Image
-          src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80"
+          src={cityImageUrl}
           alt="Londres"
           h="10.76rem"
           w="100%"
@@ -26,7 +38,7 @@ export function CityItem() {
               fontWeight={600}
               fontFamily="Barlow, sans-serif"
             >
-              Londres
+              {cityName}
             </Text>
             <Text
               color="gray.500"
@@ -35,11 +47,11 @@ export function CityItem() {
               fontWeight={500}
               fontFamily="Barlow, sans-serif"
             >
-              Reino Unido
+              {countryName}
             </Text>
           </Box>
           <Image
-            src="https://catamphetamine.gitlab.io/country-flag-icons/1x1/GB.svg"
+            src={countryFlagImageUrl}
             h="1.875rem"
             w="1.875rem"
             rounded="full"
