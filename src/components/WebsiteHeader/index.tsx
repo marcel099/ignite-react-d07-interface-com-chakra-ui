@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Button, Icon, Image, SimpleGrid } from "@chakra-ui/react";
+import Image from "next/image";
+import { Box, Button, Icon, SimpleGrid } from "@chakra-ui/react";
 import { FiChevronLeft } from 'react-icons/fi';
 
 type WebsiteHeaderProps = {
@@ -25,13 +26,17 @@ export function WebsiteHeader({ containReturnButton = false }: WebsiteHeaderProp
           ></Button>
         </Link>
       )}
-      <Image
-        src="logo.svg"
-        alt="Avião"
-        h="2.87rem"
+      <Box
         justifySelf="center"
         gridColumn={2}
-      />
+      >
+        <Image
+          src="/logo.svg"
+          alt="Avião"
+          height={45.92}
+          width={184.06}
+        />
+      </Box>
     </SimpleGrid>
   )
 }

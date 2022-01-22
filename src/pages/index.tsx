@@ -18,6 +18,7 @@ import { SwiperSlider } from "../components/home/SwiperSlider";
 // type Continent = {
 //   id: string
 //   name: string
+//   carouselImageUrl: string
 // }
 
 // type HomeProps = {

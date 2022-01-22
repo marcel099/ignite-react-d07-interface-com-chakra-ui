@@ -19,7 +19,7 @@ export interface City {
   image_url: string
 }
 
-const continentCarouselImageWidth = 1470
+const continentCarouselImageWidth = 1140
 const continentBannerImageWidth = 1470
 const cityImageWidth = 340
 
@@ -47,7 +47,7 @@ export const continents: Continent[] = [
         cities: [
           {
             name: 'Nova York',
-            image_url: 'https://images.unsplash.com/photo-1587162146766-e06b1189b907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1556&q=80'
+            image_url: `https://images.unsplash.com/photo-1587162146766-e06b1189b907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           }
         ]
       }
@@ -111,7 +111,7 @@ export const continents: Continent[] = [
         cities: [
           {
             name: 'Kuala Lumpur',
-            image_url: 'https://images.unsplash.com/photo-1545424436-1be2b5c0d0fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80',
+            image_url: `https://images.unsplash.com/photo-1545424436-1be2b5c0d0fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           }
         ]
       },
@@ -132,7 +132,7 @@ export const continents: Continent[] = [
     info: 'A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.',
     total_countries: 50,
     total_languages: 60,
-    carousel_image_url: `https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${continentCarouselImageWidth}&q=80`,
+    carousel_image_url: `https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${continentCarouselImageWidth}&q=80`,
     banner_image_url: `https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${continentBannerImageWidth}&q=80`,
     countries: [
       {

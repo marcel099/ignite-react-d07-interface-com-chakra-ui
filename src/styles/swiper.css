@@ -7,6 +7,11 @@
   color: var(--chakra-colors-yellow-500);
 }
 
+.swiper .swiper-pagination-bullet {
+  background: var(--chakra-colors-gray-500);
+  opacity: initial;
+}
+
 .swiper .swiper-pagination-bullet-active {
   background: var(--chakra-colors-yellow-500);
 }
