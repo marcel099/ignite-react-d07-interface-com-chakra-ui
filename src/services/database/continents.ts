@@ -72,6 +72,10 @@ export const continents: Continent[] = [
           {
             name: 'Macau',
             image_url: `https://images.unsplash.com/photo-1628695141670-8d58bc150895?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Shenzhen',
+            image_url: `https://images.unsplash.com/photo-1595951908518-f64787a1c6dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           }
         ]
       },
@@ -82,6 +86,14 @@ export const continents: Continent[] = [
           {
             name: 'Bancoque',
             image_url: `https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Phuket',
+            image_url: `https://images.unsplash.com/photo-1577375837944-47617314bfd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Pattaya',
+            image_url: `https://images.unsplash.com/photo-1538114618364-ae7f63d1ee7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           }
         ]
       },
@@ -122,6 +134,54 @@ export const continents: Continent[] = [
           {
             name: 'Istanbul',
             image_url: `https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`,
+          },
+          {
+            name: 'Antália',
+            image_url: `https://images.unsplash.com/photo-1625402780041-5d12b7887913?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          }
+        ]
+      },
+      {
+        name: 'Índia',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/IN.svg',
+        cities: [
+          {
+            name: 'Deli',
+            image_url: `https://images.unsplash.com/photo-1592639296346-560c37a0f711?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Mumbai',
+            image_url: `https://images.unsplash.com/photo-1595658658481-d53d3f999875?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          }
+        ]
+      },
+      {
+        name: 'Japan',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/JP.svg',
+        cities: [
+          {
+            name: 'Tóquio',
+            image_url: `https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          }
+        ]
+      },
+      {
+        name: 'Arábia Saudita',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/SA.svg',
+        cities: [
+          {
+            name: 'Meca',
+            image_url: `https://images.unsplash.com/photo-1512632578888-169bbbc64f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`,
+          }
+        ]
+      },
+      {
+        name: 'Taiwan',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/TW.svg',
+        cities: [
+          {
+            name: 'Taipei',
+            image_url: `https://images.unsplash.com/photo-1547211453-719b1bdec5f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           }
         ]
       }
@@ -155,6 +215,16 @@ export const continents: Continent[] = [
           }
         ]
       },
+      {
+        name: 'Itália',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/IT.svg',
+        cities: [
+          {
+            name: 'Roma',
+            image_url: `https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          }
+        ]
+      }
     ]
   },
   {
