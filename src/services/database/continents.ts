@@ -31,7 +31,18 @@ export const continents: Continent[] = [
     total_languages: 2000,
     carousel_image_url: `https://images.unsplash.com/photo-1553913861-c0fddf2619ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${continentCarouselImageWidth}&q=80`,
     banner_image_url: `https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${continentBannerImageWidth}&q=80`,
-    countries: [],
+    countries: [
+      {
+        name: 'Egito',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/EG.svg',
+        cities: [
+          {
+            name: 'Cairo',
+            image_url: `https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+    ],
   },
   {
     name: 'América',
@@ -60,6 +71,10 @@ export const continents: Continent[] = [
           {
             name: 'Las Vegas',
             image_url: `https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Orlando',
+            image_url: `https://images.unsplash.com/photo-1575089776834-8be34696ffb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -222,7 +237,15 @@ export const continents: Continent[] = [
           {
             name: 'Meca',
             image_url: `https://images.unsplash.com/photo-1512632578888-169bbbc64f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`,
-          }
+          },
+          {
+            name: 'Medina',
+            image_url: `https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Riad',
+            image_url: `https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
         ]
       },
       {
@@ -232,10 +255,6 @@ export const continents: Continent[] = [
           {
             name: 'Taipei',
             image_url: `https://images.unsplash.com/photo-1547211453-719b1bdec5f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
-          },
-          {
-            name: 'Medina',
-            image_url: `https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -256,6 +275,10 @@ export const continents: Continent[] = [
           {
             name: 'Ho Chi Minh',
             image_url: `https://images.unsplash.com/photo-1535952548450-d7447587e733?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Ha Long',
+            image_url: `https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -311,6 +334,10 @@ export const continents: Continent[] = [
             name: 'Milão',
             image_url: `https://images.unsplash.com/photo-1572602648934-1d98de6dab48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
+          {
+            name: 'Veneza',
+            image_url: `https://images.unsplash.com/photo-1453747063559-36695c8771bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
         ]
       },
       {
@@ -339,6 +366,10 @@ export const continents: Continent[] = [
         cities: [
           {
             name: 'Barcelona',
+            image_url: `https://images.unsplash.com/photo-1587789202069-f57c846b85db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Madrid',
             image_url: `https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
@@ -350,6 +381,46 @@ export const continents: Continent[] = [
           {
             name: 'Viena',
             image_url: `https://images.unsplash.com/photo-1590253198910-1683b35ba5bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Alemanhã',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/DE.svg',
+        cities: [
+          {
+            name: 'Berlim',
+            image_url: `https://images.unsplash.com/photo-1599946347371-68eb71b16afc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Grécia',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/GR.svg',
+        cities: [
+          {
+            name: 'Atenas',
+            image_url: `https://images.unsplash.com/photo-1503152394-c571994fd383?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Rússia',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/RU.svg',
+        cities: [
+          {
+            name: 'Moscou',
+            image_url: `https://images.unsplash.com/photo-1580837119756-563d608dd119?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Irlanda',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/IE.svg',
+        cities: [
+          {
+            name: 'Dublin',
+            image_url: `https://images.unsplash.com/photo-1575283757534-1a1999f6f341?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
