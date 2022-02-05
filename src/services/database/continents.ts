@@ -76,7 +76,7 @@ export const continents: Continent[] = [
           },
           {
             name: 'Los Angeles',
-            image_url: `https://images.unsplash.com/photo-1429554429301-1c7d5ae2d42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+            image_url: `https://images.unsplash.com/photo-1580655653885-65763b2597d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
           {
             name: 'Las Vegas',
@@ -464,7 +464,7 @@ export const continents: Continent[] = [
           },
           {
             name: 'Munique',
-            image_url: `https://images.unsplash.com/photo-1577462281852-279bf4986f7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+            image_url: `https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -502,7 +502,7 @@ export const continents: Continent[] = [
         cities: [
           {
             name: 'Dublin',
-            image_url: `https://images.unsplash.com/photo-1575283757534-1a1999f6f341?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+            image_url: `https://images.unsplash.com/photo-1602797882193-51cb0e037534?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -532,7 +532,7 @@ export const continents: Continent[] = [
         cities: [
           {
             name: 'Lisboa',
-            image_url: `https://images.unsplash.com/photo-1585208798174-6cedd86e019a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+            image_url: `https://images.unsplash.com/photo-1616862890964-fd20e9dd106d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
