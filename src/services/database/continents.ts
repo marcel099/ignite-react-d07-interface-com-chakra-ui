@@ -40,6 +40,10 @@ export const continents: Continent[] = [
             name: 'Cairo',
             image_url: `https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
+          {
+            name: 'Hurghada',
+            image_url: `https://images.unsplash.com/photo-1562679300-722c0b24717d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
         ]
       },
       {
@@ -100,6 +104,10 @@ export const continents: Continent[] = [
             name: 'São Francisco',
             image_url: `https://images.unsplash.com/photo-1610312278520-bcc893a3ff1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
+          {
+            name: 'Honolulu',
+            image_url: `https://images.unsplash.com/photo-1463998848083-9f2c6a11e97d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
         ]
       },
       {
@@ -123,6 +131,26 @@ export const continents: Continent[] = [
           {
             name: 'Vancouver',
             image_url: `https://images.unsplash.com/photo-1560814304-4f05b62af116?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Argentina',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/AR.svg',
+        cities: [
+          {
+            name: 'Buenos Aires',
+            image_url: `https://images.unsplash.com/photo-1609080814811-5837f3c7095a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Peru',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/PE.svg',
+        cities: [
+          {
+            name: 'Lima',
+            image_url: `https://images.unsplash.com/photo-1580844867519-adaa6fdfd872?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -245,7 +273,11 @@ export const continents: Continent[] = [
           {
             name: 'Antália',
             image_url: `https://images.unsplash.com/photo-1625402780041-5d12b7887913?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
-          }
+          },
+          {
+            name: 'Muğla',
+            image_url: `https://images.pexels.com/photos/8922613/pexels-photo-8922613.jpeg?auto=compress&cs=tinysrgb&dpr=2&&w=${cityImageWidth}`
+          },
         ]
       },
       {
@@ -293,6 +325,10 @@ export const continents: Continent[] = [
           {
             name: 'Quioto',
             image_url: `https://images.unsplash.com/photo-1578469645742-46cae010e5d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Chiba',
+            image_url: `https://images.unsplash.com/photo-1599719619096-7025b3b8be9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -353,6 +389,10 @@ export const continents: Continent[] = [
           {
             name: 'Hanói',
             image_url: `https://images.unsplash.com/photo-1555921015-5532091f6026?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Da Nang',
+            image_url: `https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -502,6 +542,10 @@ export const continents: Continent[] = [
             name: 'Munique',
             image_url: `https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
+          {
+            name: 'Frankfurt',
+            image_url: `https://images.unsplash.com/photo-1615159073222-de25cfc5fea3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
         ]
       },
       {
@@ -589,6 +633,20 @@ export const continents: Continent[] = [
           {
             name: 'Cracóvia',
             image_url: `https://images.unsplash.com/photo-1522689764216-4e6966e5e444?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Varsóvia',
+            image_url: `https://images.unsplash.com/photo-1607427293702-036933bbf746?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Suécia',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/SE.svg',
+        cities: [
+          {
+            name: 'Estocolmo',
+            image_url: `https://images.unsplash.com/photo-1516382772789-f9bfd7cb7532?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
