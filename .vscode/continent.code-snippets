@@ -1,0 +1,26 @@
+{
+  "Country Data Object": {
+		"prefix": "ctryo",
+		"body": [
+			"{",
+			"  name: '',",
+			"  flag_image_url: '',",
+			"  cities: [",
+      "    co",
+      "  ]",
+			"},"
+		],
+		"description": "Create the structure of a country data object"
+	},
+
+  "City Data Object": {
+		"prefix": "co",
+		"body": [
+			"{",
+			"  name: '',",
+			"  image_url: ''",
+			"},"
+		],
+		"description": "Create the structure of a city data object."
+	}
+}
