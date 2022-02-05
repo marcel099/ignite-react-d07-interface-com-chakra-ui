@@ -47,8 +47,18 @@ export const continents: Continent[] = [
         flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/ZA.svg',
         cities: [
           {
-            name: 'Johannesburg',
+            name: 'Johanesburgo',
             image_url: `https://images.unsplash.com/photo-1636706519609-988babca3dd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Marrocos',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/MA.svg',
+        cities: [
+          {
+            name: 'Marraquexe',
+            image_url: `https://images.unsplash.com/photo-1545041552-becc2efcccc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -85,6 +95,10 @@ export const continents: Continent[] = [
           {
             name: 'Orlando',
             image_url: `https://images.unsplash.com/photo-1575089776834-8be34696ffb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'São Francisco',
+            image_url: `https://images.unsplash.com/photo-1610312278520-bcc893a3ff1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -153,6 +167,10 @@ export const continents: Continent[] = [
           {
             name: 'Zhuhai',
             image_url: `https://images.unsplash.com/photo-1568947577887-1bcb41962122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Guilin',
+            image_url: `https://images.unsplash.com/photo-1554950113-4f3081cb3a41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
@@ -253,6 +271,10 @@ export const continents: Continent[] = [
           {
             name: 'Jaipur',
             image_url: `https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Calcutá',
+            image_url: `https://images.pexels.com/photos/9610478/pexels-photo-9610478.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=${cityImageWidth}`
           },
         ]
       },
@@ -356,6 +378,20 @@ export const continents: Continent[] = [
             name: 'Jerusalém',
             image_url: `https://images.unsplash.com/photo-1614517453351-6c1522fc7a56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
+          {
+            name: 'Telavive',
+            image_url: `https://images.unsplash.com/photo-1500990702037-7620ccb6a60a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Filipinas',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/PH.svg',
+        cities: [
+          {
+            name: 'Cebu',
+            image_url: `https://images.unsplash.com/photo-1581521894817-f7cb8bedd905?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
         ]
       },
     ],
@@ -455,7 +491,7 @@ export const continents: Continent[] = [
         ]
       },
       {
-        name: 'Alemanhã',
+        name: 'Alemanha',
         flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/DE.svg',
         cities: [
           {
@@ -536,6 +572,26 @@ export const continents: Continent[] = [
           },
         ]
       },
+      {
+        name: 'Dinamarca',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/DK.svg',
+        cities: [
+          {
+            name: 'Copenhage',
+            image_url: `https://images.unsplash.com/photo-1513622118278-bc041b3c13ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Polônia',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/PL.svg',
+        cities: [
+          {
+            name: 'Cracóvia',
+            image_url: `https://images.unsplash.com/photo-1522689764216-4e6966e5e444?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
     ]
   },
   {
@@ -553,6 +609,20 @@ export const continents: Continent[] = [
           {
             name: 'Sydney',
             image_url: `https://images.unsplash.com/photo-1546499275-102456d6b737?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+          {
+            name: 'Melbourne',
+            image_url: `https://images.unsplash.com/photo-1514395462725-fb4566210144?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
+          },
+        ]
+      },
+      {
+        name: 'Nova Zelândia',
+        flag_image_url: 'https://catamphetamine.gitlab.io/country-flag-icons/1x1/NZ.svg',
+        cities: [
+          {
+            name: 'Auckland',
+            image_url: `https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=${cityImageWidth}&q=80`
           },
         ]
       },
